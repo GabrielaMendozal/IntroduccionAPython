@@ -1,10 +1,11 @@
-import random
+import random    
 
-print('Welcome to Python!')
+print('Welcome to Python!') 
 
-print('This is a loop printing 5 times')
+print('This is a loop printing 5 times')  
 for x in range(1, 6):
     print(f'x is: {x}')
+
 
 weekdays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
 day = random.choice(weekdays)
